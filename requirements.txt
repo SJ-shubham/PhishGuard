@@ -1,0 +1,25 @@
+# PhishGuard — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core ML ───────────────────────────────────────────────────────────────────
+numpy>=2.2.0
+pandas>=3.0.0
+scikit-learn>=1.8.0
+xgboost>=3.0.0
+shap>=0.50.0
+matplotlib>=3.10.0
+joblib>=1.4.0
+
+# ── Feature extraction — URL / network ────────────────────────────────────────
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+tldextract>=5.1.0
+python-whois>=0.9.0
+python-Levenshtein>=0.25.0
+
+# ── PDF report generation ─────────────────────────────────────────────────────
+reportlab>=4.2.0
+
+# ── Backend (Phase 7) ─────────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0

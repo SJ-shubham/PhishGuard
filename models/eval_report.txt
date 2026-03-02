@@ -1,0 +1,30 @@
+============================================================
+  PhishGuard — Model Evaluation Report
+============================================================
+
+  Test-set Metrics
+  -----------------
+  Accuracy  : 1.0000  (100.00%)
+  Precision : 1.0000
+  Recall    : 1.0000
+  F1 Score  : 1.0000
+  AUC-ROC   : 1.0000
+
+  5-Fold CV F1 (on train set)
+  ----------------------------
+  Mean F1   : 0.9999
+  Std F1    : 0.0000
+  Per-fold  : [np.float64(0.9999), np.float64(0.9999), np.float64(1.0), np.float64(0.9999), np.float64(0.9999)]
+
+  Classification Report
+  ----------------------
+                precision    recall  f1-score   support
+
+  Phishing (0)       1.00      1.00      1.00     20189
+Legitimate (1)       1.00      1.00      1.00     26970
+
+      accuracy                           1.00     47159
+     macro avg       1.00      1.00      1.00     47159
+  weighted avg       1.00      1.00      1.00     47159
+
+============================================================
