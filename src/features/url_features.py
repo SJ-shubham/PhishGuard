@@ -14,7 +14,6 @@ from urllib.parse import urlparse, unquote
 
 import tldextract
 
-
 # ── TLD probability lookup ────────────────────────────────────────────────────
 # Based on empirical TLD distribution in the PhiUSIIL dataset.
 # Max observed value: 0.522907 (.com cluster), min ~0.000.

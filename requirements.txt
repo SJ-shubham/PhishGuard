@@ -20,6 +20,20 @@ python-Levenshtein>=0.25.0
 # ── PDF report generation ─────────────────────────────────────────────────────
 reportlab>=4.2.0
 
-# ── Backend (Phase 7) ─────────────────────────────────────────────────────────
+# ── Backend — FastAPI ─────────────────────────────────────────────────────────
 fastapi>=0.115.0
 uvicorn[standard]>=0.34.0
+python-multipart>=0.0.9
+
+# ── Backend — Database ────────────────────────────────────────────────────────
+motor>=3.6.0
+redis>=5.0.0
+
+# ── Backend — Auth ────────────────────────────────────────────────────────────
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.1.0
+passlib[bcrypt]>=1.7.4
+
+# ── Backend — Config ──────────────────────────────────────────────────────────
+pydantic-settings>=2.0.0
+pydantic[email]>=2.0.0

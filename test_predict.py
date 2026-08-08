@@ -12,7 +12,6 @@ Run from the project root:
   Default test batch:
     python -X utf8 test_predict.py --batch
 """
-
 import sys
 import os
 import re
